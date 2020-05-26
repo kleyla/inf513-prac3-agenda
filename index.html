@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP / PostgreSQL | MySQL</title>
+</head>
+
+<body>
+    <div align="center">
+    </div>
+    <form method="get" action="{$pslogin}">
+        <div align="center">
+            <h2>{$titulo}<br>
+            </h2>
+        </div>
+        <table width="250" border="1" align="center" cellpadding="2" cellspacing="2" bgcolor="#CCCCCC">
+            <tr>
+                <td width="89">Usuario:</td>
+                <td width="145"><input name="user" type="text"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input name="password" type="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div align="center">
+                        <input type="reset" name="Reset" value="Limpiar">
+                        <input type="submit" name="Submit" value="Ingresar">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br>
+    <center>
+        <A1><a href="{$pcregistrar}">Registrarme</a></A1>
+    </center>
+    <br>
+</body>
+
+</html>
